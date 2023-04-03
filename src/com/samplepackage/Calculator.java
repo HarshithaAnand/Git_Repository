@@ -25,7 +25,8 @@ public class Calculator {
 			        System.out.println("Division of two numbers:" +result);
 			        return(result);
 			        }
-					return 0;   
+					return 0; 
+    
 			    }
 	public static void main(String[] args) {
 		try (// TODO Auto-generated method stub
@@ -35,6 +36,10 @@ public class Calculator {
 			int num2= sc.nextInt();
 			Calculator cal= new Calculator();
 			cal.add(num1, num2);
+			cal.subtract(num1, num2);
+			cal.multiply(num1, num2);
+			cal.division(num1, num2);
+cal.add(num1, num2);
 			cal.subtract(num1, num2);
 			cal.multiply(num1, num2);
 			cal.division(num1, num2);
