@@ -46,7 +46,7 @@ public class Calculator {
 				        return(result);
 				        }
 						return 0; 
-    
+						System.out.println("Cannot divide by zero!");
     
 			    }
 	public static void main(String[] args) {
